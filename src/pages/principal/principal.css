@@ -41,8 +41,8 @@ body {
       justify-content: center;
   }
 
-  #ComboBoxCiudades{
-      height: 5vh;
+  #InputCiudades{
+      height: 4vh;
       width: 70vw;
   }
   

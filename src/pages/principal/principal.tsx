@@ -6,6 +6,9 @@ export default function Principal() {
 
 let navigate : NavigateFunction = useNavigate();
 
+const handleSubmitCiudades = () => {
+};
+
   return (
     <div className="ContainerPrincipal">
         <div className="Header">
@@ -23,16 +26,10 @@ let navigate : NavigateFunction = useNavigate();
                 <h1>Selecciona una ciudad para ver restaurantes</h1>
             </div>
             <div className="Buscador">
-                <select id="ComboBoxCiudades" name="Ciudades:">
-                    <option value="value1">Cali</option>
-                    <option value="value2">Bogota</option>
-                    <option value="value3">Medellin</option>
-                    <option value="value4">Bucaramanga</option>
-                    <option value="value5">Cartagena</option>
-                </select>
-                <button id="BotonBuscar" onClick={()=>{
-                    navigate('/Principal/Restaurante1');
-                }}>Buscar</button>
+                <form className="Busqueda" onSubmit={handleSubmitCiudades}>
+                    <input id="InputCiudades" type="text" placeholder="Ciudades"/>
+                    <button id="BotonBuscar" type="submit">Buscar</button>
+                </form>
             </div>
         </div>
     </div>
