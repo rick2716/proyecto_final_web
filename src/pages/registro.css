@@ -1,40 +1,62 @@
 body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  h1 {
-    margin: 0;
-  }
-  
-  .Container {
-    height: 100vh;
-    width: 100vw;
-    font-family: sans-serif;
-    text-align: center;
-  }
-  
-  .Header {
-    height: 30vh;
-    width: 100vw;
-    background-color: cadetblue;
-  }
-  
-  .Body {
-    height: 70vh;
-    width: 100vw;
-    background-color: firebrick;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas:
-      ". form form ."
-      ". form form ."
-      ". . . .";
-  }
-  
-  .Formulario {
-    grid-area: form;
-    background-color: lightblue;
-  }
-  
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 10px;
+}
+
+.Container {
+  height: 100vh;
+  width: 100vw;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Header {
+  height: 20vh;
+  width: 100vw;
+  background-color: cadetblue;
+}
+
+img {
+  height: 20vh;
+  width: 100vw;
+}
+
+.Body {
+  height: 80vh;
+  width: 100vw;
+  background-color: firebrick;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    ". . ."
+    ". title ."
+    ". form ."
+    ". form ."
+    ". . .";
+}
+
+.Formulario {
+  grid-area: form;
+  background-color: lightblue;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+.Title {
+  grid-area: title;
+  background-color: lightblue;
+  border-top-left-radius: 10% 20%;
+  border-top-right-radius: 10% 20%;
+  border-color: black;
+  border-top-width: 10%;
+}
+
+#TextCheck {
+  font-size: 12px;
+  color: red;
+}
