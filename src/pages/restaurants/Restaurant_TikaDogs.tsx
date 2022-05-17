@@ -10,7 +10,7 @@ export default function Restaurant_TikaDogs(){
      <img src={imgTikaDogsMedellin} alt="" />
      </div>
      <div className="Direccion">
-      <p>Carrera 34 # 7-29</p>
+      <p>Carrera 34 # 07-29</p>
      </div>
      <div className="Reseña">
        <p>Detalles <br />

@@ -1,6 +1,6 @@
 import imgMalangaMedellin from "../../images/imgMalangaMedellin.png";
 
-export default function Restaurant_TikaDogs(){
+export default function Restaurant_Malanga(){
  return (
     <div className="Container">
      <div className="Title">
