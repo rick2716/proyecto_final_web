@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .Container {
+    height: 100vh;
+    width: 100vw;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #34e0a1;
+  }
+  
+  .Body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+      ". . . . ."
+      ". . title . ."
+      ". . form . ."
+      ". . form . ."
+      ". . . . .";
+  }
+  
+  .Formulario {
+    grid-area: form;
+    background-color: #f2f1ec;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+  
+  .Title {
+    grid-area: title;
+    background-color: #f2f1ec;
+    border-top-left-radius: 10% 20%;
+    border-top-right-radius: 10% 20%;
+  }  
+  #BotonRegistro{
+    border-radius: 10%;
+    background-color: #dbdbdb;
+  }
+  
+  #BotonRegistro:hover{
+    border-radius: 10%;
+    background-color: #34e0a1;
+  }
+  
