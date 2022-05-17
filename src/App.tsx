@@ -7,7 +7,7 @@ import {
   import Registro from './pages/registro/registro';
   import Login from "./pages/login/login";
   import Principal from "./pages/principal/principal";
-  import Restaurant_cali1 from "./pages/restaurants/Restaurant_cali1";
+  import Restaurant_cali1 from "./pages/restaurants/Restaurant_Mascabado";
 
   export default function App() {
     return (<BrowserRouter >

@@ -1,6 +1,6 @@
 import imaCA1 from "../../images/imaCA1.png";
 
-export default function Restaurant_cali1(){
+export default function Restaurant_Mascabado(){
  return (
     <div className="Container">
      <div className="Title">
@@ -14,12 +14,10 @@ export default function Restaurant_cali1(){
      </div>
      <div className="Reseña">
        <p>Detalles <br />
-         -Rango de precios: $ 20.492 - $ 61.475 <br />
+        -Rango de precios: $ 20.492 - $ 61.475 <br />
         -Tipos de comida: Café, Contemporánea, Saludable, Fusión <br />
         -Dietas especiales: Apto para vegetarianos, Opciones veganas, Opciones sin gluten</p>  
      </div>
      
     </div>)
-
-
 };
