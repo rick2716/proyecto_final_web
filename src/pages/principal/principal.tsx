@@ -24,6 +24,7 @@ const handleSubmitCiudades = () => {
         <div className="BodyPrincipal">
             <div className="TextoCiudad">
                 <h1>Selecciona una ciudad para ver restaurantes</h1>
+                <p>Cali - Bogota - Medellin - Cartagena - Bucaramanga</p>
             </div>
             <div className="Buscador">
                 <form className="Busqueda" onSubmit={handleSubmitCiudades}>
