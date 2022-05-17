@@ -37,7 +37,8 @@ export default function Registro() {
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (!canRegister) return;
-    localStorage.setItem(email[0], passwords[0]);
+    localStorage.setItem('Email', email[0]);
+    localStorage.setItem('Password', passwords[0]);
     navigate('/Login');
   };
 
