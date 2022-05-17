@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, FormEvent } from "react";
+import { useState, useMemo, FormEvent } from "react";
 import "./registro.css";
 
 export default function Registro() {
@@ -39,9 +39,6 @@ export default function Registro() {
 
   return (
     <div className="Container">
-      <div className="Header">
-        <h1>IMAGEEEEEEEEEEN</h1>
-      </div>
       <div className="Body">
         <div className="Title">
           <h1>Registro</h1>
@@ -83,7 +80,7 @@ export default function Registro() {
             </div>
             <br />
             <div>
-              <button type="submit" disabled={!canRegister}>
+              <button id="BotonRegistro" type="submit" disabled={!canRegister}>
                 Registrarse
               </button>
             </div>
