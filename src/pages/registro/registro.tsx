@@ -1,9 +1,12 @@
 import { useState, useMemo, FormEvent } from "react";
+import { NavigateFunction, useNavigate } from "react-router-dom";
 import "./registro.css";
 
 export default function Registro() {
   const [email, setEmail] = useState([""]);
   const [passwords, setPasswords] = useState(["", ""]);
+
+  let navigate : NavigateFunction = useNavigate();
 
   const handleInputPassword = (
     event: FormEvent<HTMLInputElement>,
@@ -35,6 +38,7 @@ export default function Registro() {
     event.preventDefault();
     if (!canRegister) return;
     localStorage.setItem(email[0], passwords[0]);
+    navigate('/Login');
   };
 
   return (
