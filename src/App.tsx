@@ -7,6 +7,7 @@ import {
   import Registro from './pages/registro/registro';
   import Login from "./pages/login/login";
   import Principal from "./pages/principal/principal";
+  import Restaurant_cali1 from "./pages/restaurants/Restaurant_cali1";
 
   export default function App() {
     return (<BrowserRouter >
@@ -14,6 +15,7 @@ import {
         <Route path="/" element={<Registro />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/Principal" element={<Principal />} />
+        <Route path="/Principal/Restaurante1" element={<Restaurant_cali1 />} />
       </Routes>
     </BrowserRouter >);
   }
