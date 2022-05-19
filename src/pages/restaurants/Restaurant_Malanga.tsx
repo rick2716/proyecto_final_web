@@ -1,4 +1,5 @@
 import imgMalangaMedellin from "../../images/imgMalangaMedellin.png";
+import "./restaurants.css"
 
 export default function Restaurant_Malanga(){
  return (
@@ -6,13 +7,13 @@ export default function Restaurant_Malanga(){
      <div className="Title">
         <h1>Malanga del Trópico</h1>
      </div>
-     <div className="image">
+     <div className="Image">
      <img src={imgMalangaMedellin} alt="" />
      </div>
-     <div className="Direccion">
+     <div className="Adress">
       <p>Calle 38 # 79-46</p>
      </div>
-     <div className="Reseña">
+     <div className="Review">
        <p>Detalles <br />
         -Precios: $ 36.885 - $ 81.967 <br />
         -Tipos de comida: Caribeña, Latina, Mariscos, Colombiana, Fusión <br />

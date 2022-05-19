@@ -31,7 +31,6 @@ export default function Login() {
     if (localStorage.getItem("Email")===email[0]){
       if (localStorage.getItem("Password")===passwords[0]){
         navigate('/Principal');
-        console.log("Funcione saposaposaposaposaposaposaposaposapo")
       }
     }
     
@@ -39,15 +38,15 @@ export default function Login() {
 
   return (
     <div className="Container">
-      <div className="Body">
-        <div className="Title">
+      <div className="BodyLogin">
+        <div className="TitleLogin">
           <h1>Iniciar sesion</h1>
           <p>Completa todos los campos para continuar</p>
         </div>
-        <div className="Formulario">
+        <div className="FormLogin">
           <form onSubmit={handleSubmit}>
             <div className="InputForm">
-              <label htmlFor="correo">Correo </label> <br />
+              <label htmlFor="EmailLogin">Correo </label> <br />
               <input
                 type="text"
                 placeholder="example@example.com"
@@ -66,7 +65,7 @@ export default function Login() {
             </div>
             <br />
             <div>
-              <button id="BotoLogin" type="submit">
+              <button id="ButtonLogin" type="submit">
                 Iniciar sesion
               </button>
             </div>

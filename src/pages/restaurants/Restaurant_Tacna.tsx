@@ -1,4 +1,5 @@
 import imgTacnaCartagena from "../../images/imgTacnaCartagena.png";
+import "./restaurants.css"
 
 export default function Restaurant_Tacna(){
  return (
@@ -6,13 +7,13 @@ export default function Restaurant_Tacna(){
      <div className="Title">
         <h1>Tacna Restaurant</h1>
      </div>
-     <div className="image">
+     <div className="Image">
      <img src={imgTacnaCartagena} alt="" />
      </div>
-     <div className="Direccion">
+     <div className="Adress">
       <p>Carrera 03 # 06-102</p>
      </div>
-     <div className="Reseña">
+     <div className="Review">
        <p>Detalles <br />
         -Precios: $ 24.000 - $ 60.000<br />
         -Tipos de comida: Caribeña, Latina, Mariscos, Saludable, Colombiana, Fusión <br />

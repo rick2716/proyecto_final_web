@@ -1,4 +1,5 @@
 import imgBarbaroMedellin from "../../images/imgBarbaroMedellin.png";
+import "./restaurants.css"
 
 export default function Restaurant_Barbaro(){
  return (
@@ -6,13 +7,13 @@ export default function Restaurant_Barbaro(){
      <div className="Title">
         <h1>Bárbaro Cocina Primitiva</h1>
      </div>
-     <div className="image">
+     <div className="Image">
      <img src={imgBarbaroMedellin} alt="" />
      </div>
-     <div className="Direccion">
+     <div className="Adress">
       <p>Carrera 37 # 10A-23</p>
      </div>
-     <div className="Reseña">
+     <div className="Review">
        <p>Detalles <br />
         -Precios: $ 30.000 - $ 40.000 <br />
         -Tipos de comida: Estadounidense, Churrasquería, Parrillada, Parrilla, Argentina <br />

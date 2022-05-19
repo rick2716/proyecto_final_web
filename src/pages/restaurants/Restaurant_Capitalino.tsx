@@ -1,4 +1,5 @@
 import imgCapitalinoBogota from "../../images/impCapitalinoBogota.png";
+import "./restaurants.css"
 
 export default function Restaurant_Capitalino(){
  return (
@@ -6,13 +7,13 @@ export default function Restaurant_Capitalino(){
      <div className="Title">
         <h1>Capitalino Restaurant</h1>
      </div>
-     <div className="image">
+     <div className="Image">
      <img src={imgCapitalinoBogota} alt="" />
      </div>
-     <div className="Direccion">
+     <div className="Adress">
       <p>Calle 24a # 57-60</p>
      </div>
-     <div className="Reseña">
+     <div className="Review">
        <p>Detalles <br />
         -Precios: $ 26.000 - $ 56.000 <br />
         -Tipos de comida: Saludable, Colombiana, Internacional <br />

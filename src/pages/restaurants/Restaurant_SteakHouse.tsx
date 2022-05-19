@@ -1,4 +1,5 @@
 import imgSteakHouseCartagena from "../../images/imgSteakhouseCartagena.png";
+import "./restaurants.css"
 
 export default function Restaurant_SteakHouse(){
  return (
@@ -6,13 +7,13 @@ export default function Restaurant_SteakHouse(){
      <div className="Title">
         <h1>Porthos Steakhouse and Pub Cartagena</h1>
      </div>
-     <div className="image">
+     <div className="Image">
      <img src={imgSteakHouseCartagena} alt="" />
      </div>
-     <div className="Direccion">
+     <div className="Adress">
       <p>Calle 35 # 05-19</p>
      </div>
-     <div className="Reseña">
+     <div className="Review">
        <p>Detalles <br />
         -Precios: $ 28.689 - $ 118.852 <br />
         -Tipos de comida: Cervecería, Bar, Parrillada, Pub, Gastropub <br />

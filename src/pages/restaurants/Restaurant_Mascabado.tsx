@@ -1,4 +1,5 @@
 import imaCA1 from "../../images/imaCA1.png";
+import "./restaurants.css"
 
 export default function Restaurant_Mascabado(){
  return (
@@ -6,13 +7,13 @@ export default function Restaurant_Mascabado(){
      <div className="Title">
         <h1>Mascabado</h1>
      </div>
-     <div className="image">
+     <div className="Image">
      <img src={imaCA1} alt="" />
      </div>
-     <div className="Direccion">
+     <div className="Adress">
       <p>Calle 26N 5AN 25</p>
      </div>
-     <div className="Reseña">
+     <div className="Review">
        <p>Detalles <br />
         -Rango de precios: $ 20.492 - $ 61.475 <br />
         -Tipos de comida: Café, Contemporánea, Saludable, Fusión <br />

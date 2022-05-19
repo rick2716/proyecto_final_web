@@ -4,18 +4,18 @@ grid-template-columns: auto;
 grid-template-rows: auto;
 grid-template-areas: 
 "Title Title Title"
-"Image Image Direccion"
-"Image Image Reseña";
+"Image Image Adress"
+"Image Image Review";
 }
 .Title{
 grid-area: Title;
 }
-.image{
+.Image{
 grid-area: Image;
 }
-.Direccion{
-grid-area: Direccion;
+.Adress{
+grid-area: Adress;
 }
 .Reseña{
-grid-area: Reseña;
+grid-area: Review;
 }

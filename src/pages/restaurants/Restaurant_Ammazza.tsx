@@ -1,4 +1,5 @@
 import imgAmmazzaMedellin from "../../images/imgAmmazzaMedellin.png";
+import "./restaurants.css"
 
 export default function Restaurant_Ammazza(){
  return (
@@ -6,13 +7,13 @@ export default function Restaurant_Ammazza(){
      <div className="Title">
         <h1>Ammazza Gin Garden</h1>
      </div>
-     <div className="image">
+     <div className="Image">
      <img src={imgAmmazzaMedellin} alt="" />
      </div>
-     <div className="Direccion">
+     <div className="Adress">
       <p>Carrera 76 # 73B-01</p>
      </div>
-     <div className="Reseña">
+     <div className="Review">
        <p>Detalles <br />
         -Precios: $ 40.984 - $ 102.459 <br />
         -Tipos de comida: Italiana, Bar, Pizzería, Mediterránea <br />

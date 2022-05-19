@@ -1,4 +1,5 @@
 import img1622Bucaramanga from "../../images/img1622Bucaramanga.png";
+import "./restaurants.css"
 
 export default function Restaurant_1622(){
  return (
@@ -6,13 +7,13 @@ export default function Restaurant_1622(){
      <div className="Title">
         <h1>Restaurante 1622</h1>
      </div>
-     <div className="image">
+     <div className="Image">
      <img src={img1622Bucaramanga} alt="" />
      </div>
-     <div className="Direccion">
+     <div className="Adress">
       <p>Transversal oriental, hotel holiday Inn</p>
      </div>
-     <div className="Reseña">
+     <div className="Review">
        <p>Detalles <br />
         -Precios: $ 49.180 - $ 225.410 <br />
         -Tipos de comida: Fusión, Internacional <br />

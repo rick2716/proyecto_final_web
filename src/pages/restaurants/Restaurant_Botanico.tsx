@@ -7,13 +7,13 @@ export default function Restaurant_Botanico(){
      <div className="Title">
         <h1>Botánico Cultura Del Licor</h1>
      </div>
-     <div className="image">
+     <div className="Image">
      <img src={imgBotanicoCali} alt="" />
      </div>
-     <div className="Direccion">
+     <div className="Adress">
       <p>Avenida 9 norte # 10-32</p>
      </div>
-     <div className="Reseña">
+     <div className="Review">
        <p>Detalles <br />
         -Tipos de comida: Bar, Delicatessen, Pub, Bar de vinos <br />
         -Dietas especiales: Cena, Abierto hasta tarde, Bebidas <br />

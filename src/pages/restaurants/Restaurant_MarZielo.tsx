@@ -1,4 +1,5 @@
 import imgMarZieloCartagena from "../../images/imgMarZieloCartagena.png";
+import "./restaurants.css"
 
 export default function Restaurant_MarZielo(){
  return (
@@ -6,13 +7,13 @@ export default function Restaurant_MarZielo(){
      <div className="Title">
         <h1>Mar Y Zielo Gastro-Bar</h1>
      </div>
-     <div className="image">
+     <div className="Image">
      <img src={imgMarZieloCartagena} alt="" />
      </div>
-     <div className="Direccion">
+     <div className="Adress">
       <p>Carrera 05 # 34-63</p>
      </div>
-     <div className="Reseña">
+     <div className="Review">
        <p>Detalles <br />
         -Precios: $ 140.000 - $ 280.000 <br />
         -Tipos de comida: Caribeña, Latina, Mariscos, Internacional.
