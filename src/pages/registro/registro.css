@@ -7,7 +7,7 @@ h1 {
   margin: 10px;
 }
 
-.Container {
+.ContainerRegister {
   height: 100vh;
   width: 100vw;
   font-family: sans-serif;
@@ -15,7 +15,7 @@ h1 {
   background-color: #34e0a1;
 }
 
-.Body {
+.BodyRegister {
   height: 100vh;
   width: 100vw;
   display: grid;
@@ -29,14 +29,14 @@ h1 {
     ". . . . .";
 }
 
-.Formulario {
+.FormRegister {
   grid-area: form;
   background-color: #f2f1ec;
   border-bottom-left-radius: 10%;
   border-bottom-right-radius: 10%;
 }
 
-.Title {
+.TitleRegister {
   grid-area: title;
   background-color: #f2f1ec;
   border-top-left-radius: 10% 20%;
@@ -48,12 +48,12 @@ h1 {
   color: red;
 }
 
-#BotonRegistro{
+#ButtonRegister{
   border-radius: 10%;
   background-color: #dbdbdb;
 }
 
-#BotonRegistro:hover{
+#ButtonRegister:hover{
   border-radius: 10%;
   background-color: #34e0a1;
 }

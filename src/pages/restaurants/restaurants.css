@@ -1,21 +1,24 @@
-.Container{
-display: grid;
-grid-template-columns: auto;
-grid-template-rows: auto;
-grid-template-areas: 
-"Title Title Title"
-"Image Image Adress"
-"Image Image Review";
+.Container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "Title Title Title"
+        "Image Image Detail"
+        "Image Image Detail";
 }
-.Title{
-grid-area: Title;
+
+.Title {
+    grid-area: Title;
 }
-.Image{
-grid-area: Image;
+
+.Image {
+    grid-area: Image;
 }
-.Adress{
-grid-area: Adress;
-}
-.Reseña{
-grid-area: Review;
+
+.Detail {
+    grid-area: Detail;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

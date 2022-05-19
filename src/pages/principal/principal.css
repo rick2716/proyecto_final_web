@@ -33,7 +33,7 @@ p {
   background-color: #34e0a1;
 }
 
-#Cerrar {
+#LogOut {
   text-decoration: underline;
   background-color: transparent;
   border: transparent;
@@ -50,22 +50,22 @@ p {
   justify-content: center;
 }
 
-#InputCiudades {
+#InputCities {
   height: 4vh;
   width: 70vw;
 }
 
-#BotonBuscar {
+#SearchButton {
   height: 5vh;
   width: 5vw;
 }
 
-.TextoCiudad {
+.TextCiudad {
   height: 15vh;
   width: 100vw;
 }
 
-.Buscador {
+.Search-Bar {
   height: 5vh;
   width: 100vw;
 }

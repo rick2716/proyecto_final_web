@@ -43,13 +43,13 @@ export default function Registro() {
   };
 
   return (
-    <div className="Container">
-      <div className="Body">
-        <div className="Title">
+    <div className="ContainerRegister">
+      <div className="BodyRegister">
+        <div className="TitleRegister">
           <h1>Registro</h1>
           <p>Completa todos los campos para continuar</p>
         </div>
-        <div className="Formulario">
+        <div className="FormRegister">
           <form onSubmit={handleSubmit}>
             <div className="InputForm">
               <label htmlFor="correo">Correo </label> <br />
@@ -85,7 +85,7 @@ export default function Registro() {
             </div>
             <br />
             <div>
-              <button id="BotonRegistro" type="submit" disabled={!canRegister}>
+              <button id="ButtonRegister" type="submit" disabled={!canRegister}>
                 Registrarse
               </button>
             </div>
