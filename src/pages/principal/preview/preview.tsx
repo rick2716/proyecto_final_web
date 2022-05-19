@@ -37,7 +37,10 @@ let navigate : NavigateFunction = useNavigate();
             <h3>Cali</h3>
         </div>
         <div className="Cali">
-            <button className="BotonCiudad">
+            <button className="BotonCiudad"
+            onClick={() => {
+                navigate('/Principal/Restaurant_Botanico');
+            }}>
                 <img src={imgBotanicoCali} alt="" />
                 <p>Botánico Cultura Del Licor</p>
             </button>
