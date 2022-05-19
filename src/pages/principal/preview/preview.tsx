@@ -23,7 +23,7 @@ import imgElGarajeBucaramanga from "../../../images/imgElGarajeBucaramanga.png";
 import imgMaizPelaoBucaramanga from "../../../images/imgMaizPelaoBucaramanga.png";
 import imgTaikinsaBucaramanga from "../../../images/imgTaikinsaBucaramanga.png";
 
-function Space(){
+export function Space(){
     return <div style={{width: 20}}/>
 }
 

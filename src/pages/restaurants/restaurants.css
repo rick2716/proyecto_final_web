@@ -17,8 +17,11 @@
 }
 
 .Detail {
+    margin: 50px;
     grid-area: Detail;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: justify;
+    
 }
