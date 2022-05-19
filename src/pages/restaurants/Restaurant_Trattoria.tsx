@@ -1,4 +1,4 @@
-import imgTratoria from "../../images/imgTratoria.png";
+import imgTratoria from "../../images/imgTratoriaCali.png";
 
 export default function Restaurant_trattoria(){
  return (

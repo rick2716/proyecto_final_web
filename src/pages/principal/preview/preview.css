@@ -1,0 +1,30 @@
+.Ciudad {
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: start;
+}
+
+.BotonCiudad {
+    height: 200px;
+    width: 200px;
+    border-color: transparent;
+    font-weight: bold;
+}
+
+.BotonCiudad:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+img {
+    height: 160px;
+    width: 160px;
+}
+
+.Cali, .Bogota, .Medellin, .Cartagena, .Bucaramanga {
+    height: 220px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}

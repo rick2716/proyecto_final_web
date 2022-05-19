@@ -1,4 +1,4 @@
-import imgSteakHouseCartagena from "../../images/imgSteakHouseCartagena.png";
+import imgSteakHouseCartagena from "../../images/imgSteakhouseCartagena.png";
 
 export default function Restaurant_SteakHouse(){
  return (

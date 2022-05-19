@@ -1,4 +1,4 @@
-import imgCapitalinoBogota from "../../images/imgCapitalinoBogota.png";
+import imgCapitalinoBogota from "../../images/impCapitalinoBogota.png";
 
 export default function Restaurant_Capitalino(){
  return (
