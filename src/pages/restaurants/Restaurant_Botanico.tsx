@@ -1,4 +1,5 @@
 import imgBotanicoCali from "../../images/imgBotanicoCali.png";
+import "./restaurants.css"
 
 export default function Restaurant_Botanico(){
  return (

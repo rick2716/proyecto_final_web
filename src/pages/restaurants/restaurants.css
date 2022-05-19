@@ -1,0 +1,21 @@
+.Container{
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: auto;
+grid-template-areas: 
+"Title Title Title"
+"Image Image Direccion"
+"Image Image Reseña";
+}
+.Title{
+grid-area: Title;
+}
+.image{
+grid-area: Image;
+}
+.Direccion{
+grid-area: Direccion;
+}
+.Reseña{
+grid-area: Reseña;
+}
