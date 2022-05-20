@@ -26,6 +26,7 @@ import Restaurant_Tacna from "./pages/restaurants/Restaurant_Tacna";
 import Restaurant_ElGaraje from "./pages/restaurants/Restaurant_ElGaraje";
 import Restaurant_MaizPelao from "./pages/restaurants/Restaurant_MaizPelao";
 import Restaurant_Taikinsa from "./pages/restaurants/Restaurant_Taikinsa";
+import Restaurant_Capitalino from "./pages/restaurants/Restaurant_Capitalino";
 
 export default function App() {
   return (<BrowserRouter >
@@ -52,6 +53,7 @@ export default function App() {
       <Route path="/Principal/Restaurant_ElGaraje" element={<Restaurant_ElGaraje />} />
       <Route path="/Principal/Restaurant_MaizPelao" element={<Restaurant_MaizPelao />} />
       <Route path="/Principal/Restaurant_Taikinsa" element={<Restaurant_Taikinsa />} />
+      <Route path="/Principal/Restaurant_Capitalino" element={<Restaurant_Capitalino />} />
     </Routes>
   </BrowserRouter >);
 }

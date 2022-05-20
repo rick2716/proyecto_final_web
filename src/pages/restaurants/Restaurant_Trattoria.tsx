@@ -10,15 +10,16 @@ export default function Restaurant_trattoria() {
          <div className="Image">
             <img src={imgTratoria} alt="" />
          </div>
-         <div className="Detail"> </div>
-         <div className="Adress">
-            <p>Avenida 9 norte # 17N - 11</p>
-         </div>
-         <div className="Review">
-            <p>Detalles <br />
-               -Rango de precios: $ 28.689 - $ 81.967 <br />
-               -Tipos de comida: Italiana, Mediterránea, Europeaón. <br />
-               -Dietas especiales: Apto para vegetarianos.</p>
+         <div className="Detail">
+            <div className="Adress">
+               <p>Avenida 9 norte # 17N - 11</p>
+            </div>
+            <div className="Review">
+               <p>Detalles <br />
+                  -Rango de precios: $ 28.689 - $ 81.967 <br />
+                  -Tipos de comida: Italiana, Mediterránea, Europeaón. <br />
+                  -Dietas especiales: Apto para vegetarianos.</p>
+            </div>
          </div>
       </div>)
 };
