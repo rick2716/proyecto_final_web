@@ -29,6 +29,9 @@ export default function Principal() {
     return (
         <div className="ContainerPrincipal">
             <div className="Header">
+                <div className="name">
+                    <h3>Gastronomic Trip Colombia</h3>
+                </div>
                 <div className="LogOut">
                     <button id="LogOut" onClick={() => {
                         navigate('/Login');
