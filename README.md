@@ -24,9 +24,15 @@ Para darle uso a nuestra aplicación, primero que todo debes hacer un registro, 
 # Paso a paso
 
 1.Copiar el link del respositorio.
+
 2.Abrir git en el lugar donde quieras guardar la carpeta.
+
 3.Ya con el git abierto debes iniciar usando el comando git init, luego usar el comando git clone y pegar el link del respositorio (debo recalcar que para pegar el link en git debes usar el click derecho y usar la opción pegar).
+
 4.Abrir visual studio code, luego darle a abrir carpeta y seleccionar la carpeta que se descargo del repositorio.
+
 5.Con el visual abierto debes abrir una nueva terminal. 
+
 6.Con la terminal abierta debes usar el comando npm install, ya que haya instalado si sigues viendo errores en el código te recomendamos recargar el visual studio code.
+
 7.Ya que no aparezcan errores, volvemos a la terminal y usamos el comando npm start y ya con este comando, debes esperar a que se ejecute la pagina.
